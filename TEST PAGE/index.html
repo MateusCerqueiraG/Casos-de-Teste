@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Login</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGIN -->
+    <div id="loginBox">
+      <h2>Login</h2>
+      <input type="text" id="loginUser" placeholder="Usuário">
+      <input type="password" id="loginPass" placeholder="Senha">
+      <button onclick="login()">Entrar</button>
+      <p class="toggle" onclick="showRegister()">Não tem conta? Cadastrar</p>
+    </div>
+
+    <!-- CADASTRO -->
+    <div id="registerBox" class="hidden">
+      <h2>Cadastro</h2>
+      <input type="text" id="regUser" placeholder="Usuário">
+      <input type="password" id="regPass" placeholder="Senha">
+      <button onclick="register()">Cadastrar</button>
+      <p class="toggle" onclick="showLogin()">Já tem conta? Login</p>
+    </div>
+
+    <!-- LOGADO -->
+    <div id="welcomeBox" class="hidden welcome">
+      <h2>Bem-vindo 👋</h2>
+      <p id="welcomeUser"></p>
+      <button class="logout" onclick="logout()">Sair</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
