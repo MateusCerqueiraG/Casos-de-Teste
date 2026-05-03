@@ -59,7 +59,7 @@ Serão aplicadas técnicas de:
 
 - Todos os casos de teste executados (TC01 a TC15)  
 - Todos os bugs identificados e documentados (se houver)  
-- Funcionalidades principais validadas com sucesso  
+- Funcionalidades principais validadas com sucesso.
 
 ---
 
